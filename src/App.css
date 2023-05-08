@@ -1,0 +1,79 @@
+ body{
+  background: linear-gradient(to right, #007991, #78ffd6);
+}
+.container{
+  width:50%;
+  margin: 0 auto;
+  height: auto;
+}
+.heading{
+   text-align: center;
+   padding: 20px;
+   background-color: #fff;
+ }
+.inputfldRow{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.friendlist{
+  background-color: #fff;
+  margin-top: 20px;
+} 
+
+.inputfld{
+padding: 10px;
+border-radius: 5px;
+}
+.friendlistRow {
+  display: flex;                  
+  flex-direction: row;            
+  flex-wrap: nowrap;    
+  justify-content: space-around;
+  border: 1px solid #f1f1f1;
+
+}
+.btn{
+  width: 15%;
+  padding: 10px;
+  background-color: blue;
+  border:none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+.delete{
+  height: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.favorite{
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+}
+.paginationList {
+  display: flex;
+  margin: 20px 30px;
+}
+.paginationList li {
+  display: inline-block;
+  margin: 0 10px;
+  background: #ccc;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 45px;
+  cursor: pointer;
+}
+.validation{
+  width: 100%;
+  margin: 5px 120px;
+  color: red;
+}
+
+
+
